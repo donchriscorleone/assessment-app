@@ -1,6 +1,17 @@
 import styles from "../styles/Main.module.css";
+import { useRouter } from "next/router";
 
 const Home = () => {
+  const router = useRouter();
+
+  const handleSignUp = () => {
+    router.push("/");
+  };
+
+  const handleSignIn = () => {
+    router.push("/signin");
+  };
+
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>Assessment Application</h1>
@@ -14,8 +25,12 @@ const Home = () => {
         Buttons can take you to other pages.
       </h1>
       <div className={styles.footer}>
-        <button className={styles.footerBtn}>Sign Up</button>
-        <button className={styles.footerBtn}>Sign In</button>
+        <button className={styles.footerBtn} onClick={handleSignUp}>
+          Sign Up
+        </button>
+        <button className={styles.footerBtn} onClick={handleSignIn}>
+          Sign In
+        </button>
       </div>
     </div>
   );
