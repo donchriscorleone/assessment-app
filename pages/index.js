@@ -7,9 +7,19 @@ export default function Home() {
         <h1 className={styles.title}>Sign Up</h1>
 
         <input type="email" placeholder="Email:" className={styles.input} />
-        <input type="text" placeholder="Password:" className={styles.input} />
+        <input
+          type="password"
+          placeholder="Password:"
+          className={styles.input}
+        />
+        <input
+          type="password"
+          placeholder="Retype password:"
+          className={styles.input}
+        />
+
         <button type="submit" className={styles.submitBtn}>
-          Login
+          Register
         </button>
       </form>
     </div>

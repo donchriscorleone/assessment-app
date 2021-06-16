@@ -14,7 +14,7 @@
   row-gap: 6px;
   justify-items: center;
   min-height: 60vh;
-  width: 18rem;
+  width: 15rem;
   padding: 10px;
 }
 
@@ -27,17 +27,25 @@
 .input {
   width: 12rem;
   height: 30px;
-  margin: 17px 20px;
+  margin: 12px 20px;
   padding: 15px;
+  border-radius: 10px;
+  border-style: none;
 }
 
 .submitBtn {
   background-color: #596e79;
-  border: none;
+  border-style: none;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   outline: none;
   border-radius: 10px;
-  width: 80px;
-  padding: 10px;
+  width: 150px;
+  padding: 5px;
   font-size: 1.3rem;
 }
+
+/* .submitBtn:hover {
+    background-color: #F0ECE3;
+    color: #596e79;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+} */
