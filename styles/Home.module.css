@@ -1,0 +1,37 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+  text-align: center;
+  background-color: #c7b198;
+  min-height: 50vh;
+}
+
+.title {
+  font-size: 3rem;
+  margin: 10px 9px;
+  background-color: #c7b198;
+}
+
+.input {
+  width: 50%;
+  height: 30px;
+  margin: 17px 20px;
+}
+
+.submitBtn {
+  background-color: #596e79;
+  border: none;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  outline: none;
+  border-radius: 10px;
+  width: 80px;
+  padding: 10px;
+  font-size: 1.3rem;
+}
