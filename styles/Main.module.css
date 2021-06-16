@@ -17,6 +17,51 @@
 .imageContainer {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
   padding: 7px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.image {
+  animation: bounce 3s ease-in-out infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.footerText {
+  font-size: 1rem;
+  margin-top: 10px;
+  border-bottom: 7px solid #c7b198;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.footerBtn {
+  background-color: #596e79;
+  border-style: none;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  outline: none;
+  border-radius: 10px;
+  width: 100px;
+  padding: 5px;
+  font-size: 1.3rem;
+}
+
+.submitBtn:hover {
   background-color: #c7b198;
-  z-index: 2;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+  border-color: #596e79;
+  cursor: pointer;
 }

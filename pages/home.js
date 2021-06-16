@@ -10,6 +10,13 @@ const Home = () => {
           className={styles.image}
         />
       </div>
+      <h1 className={styles.footerText}>
+        Buttons can take you to other pages.
+      </h1>
+      <div className={styles.footer}>
+        <button className={styles.footerBtn}>Sign Up</button>
+        <button className={styles.footerBtn}>Sign In</button>
+      </div>
     </div>
   );
 };
