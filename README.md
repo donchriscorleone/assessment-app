@@ -1,15 +1,33 @@
-# This is an assessment application that has two branch (Signin, Signup)
+# This is an assessment application
 
-Here is the published application [Assessment-App](https://github.io/donchriscorleone/assessment-app/)
+List of the branches
 
-# For usage
+[SignUp](https://github.com/donchriscorleone/assessment-app/tree/pages/signup)
 
-Clone this repo
+[SignIn](https://github.com/donchriscorleone/assessment-app/tree/pages/signIn)
+
+[Home](https://github.com/donchriscorleone/assessment-app/tree/pages/home)
+
+# Usage
+
+1. Clone this repo
+
 `git clone https://github.com/donchriscorleone/assessment-app.git`
 
-Run the development server
+2. Go to the root directory
+
+`cd assessment-app`
+
+3. Install the dependencies
+
+`npm install`
+or
+`yarn install`
+
+4. Run the development server
+
 `npm run dev`
 
 # Message me
 
-penncorleone@gmail.com
+[Author](https://facebook.com/penpenlajom)
