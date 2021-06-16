@@ -7,7 +7,7 @@ const SignIn = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    router.push("/signin");
+    router.push("/home");
   };
 
   return (
