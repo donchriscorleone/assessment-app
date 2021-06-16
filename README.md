@@ -4,8 +4,10 @@ Here is the published application [Assessment-App](https://github.io/donchriscor
 
 # For usage
 
-Clone this repository and run the development server
+Clone this repo
+`git clone https://github.com/donchriscorleone/assessment-app.git`
 
+Run the development server
 `npm run dev`
 
 # Message me
