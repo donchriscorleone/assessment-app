@@ -65,3 +65,26 @@
   border-color: #596e79;
   cursor: pointer;
 }
+
+/* tablet or medium screens */
+@media screen and (min-width: 481px) and (max-width: 800px) {
+  .title {
+    font-size: 1.8rem;
+  }
+  .imageContainer {
+    padding: 10px;
+  }
+  .footerText {
+    font-size: 1.2rem;
+  }
+
+  .footer {
+    gap: 4rem;
+  }
+
+  .footerBtn {
+    width: 120px;
+    padding: 10px;
+    font-size: 1.3rem;
+  }
+}
