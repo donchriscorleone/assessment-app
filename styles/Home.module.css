@@ -44,8 +44,30 @@
   font-size: 1.3rem;
 }
 
-/* .submitBtn:hover {
-    background-color: #F0ECE3;
-    color: #596e79;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
-} */
+.submitBtn:hover {
+  background-color: #c7b198;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+  border-color: #596e79;
+  cursor: pointer;
+}
+
+/* tablet */
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .form {
+    min-height: 600px;
+    padding: 12px;
+    width: 500px;
+  }
+  .title {
+    font-size: 3.5rem;
+  }
+
+  .input {
+    width: 15rem;
+    height: 2rem;
+  }
+  .submitBtn {
+    width: 11rem;
+    font-size: 1.5rem;
+  }
+}
