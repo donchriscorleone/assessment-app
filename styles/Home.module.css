@@ -71,3 +71,26 @@
     font-size: 1.5rem;
   }
 }
+
+/* laptop */
+@media screen and (min-width: 1025px) {
+  .form {
+    min-height: 50vh;
+    padding: 20px;
+    width: 500px;
+  }
+  .title {
+    font-size: 3.2rem;
+  }
+
+  .input {
+    width: 13rem;
+    height: 1.5rem;
+    margin: 15px 18px;
+  }
+  .submitBtn {
+    width: 10rem;
+    font-size: 1.3rem;
+    margin: 0.8rem;
+  }
+}
