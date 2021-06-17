@@ -25,6 +25,10 @@ export default function Home() {
         type: "danger",
         visible: true,
       });
+
+      setTimeout(() => {
+        setToastInfo({ ...toastInfo, visible: false });
+      }, 3000);
       return;
     }
 
@@ -34,6 +38,9 @@ export default function Home() {
         type: "danger",
         visible: true,
       });
+      setTimeout(() => {
+        setToastInfo({ ...toastInfo, visible: false });
+      }, 3000);
       return;
     }
 
