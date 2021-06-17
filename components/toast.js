@@ -1,10 +1,9 @@
-import React from "react";
-import styles from "../styles/Toast.module.css";
+import React, { useState } from "react";
 
 const Toast = ({ message, type }) => {
   return (
-    <div>
-      <h1>This is a toast</h1>
+    <div className={`toastContainer ${type}`}>
+      <h1>{message}</h1>
       <button>Close</button>
     </div>
   );
