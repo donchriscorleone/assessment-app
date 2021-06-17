@@ -17,6 +17,16 @@
   min-height: 60vh;
   width: 15rem;
   padding: 10px;
+  animation: grow 2.5s ease-in-out;
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .title {
