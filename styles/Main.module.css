@@ -1,3 +1,9 @@
+.main {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
 .container {
   color: #596e79;
   height: 100vh;
@@ -5,6 +11,7 @@
   grid-template-columns: 100%;
   justify-items: center;
   align-items: center;
+  background-color: #fdffbc;
 }
 
 .title {
@@ -44,6 +51,7 @@
   grid-template-rows: 50% 100px 100px;
   justify-items: center;
   align-items: center;
+  background-color: #ffeebb;
 }
 
 .footerText {
@@ -62,6 +70,16 @@
   width: 100px;
   padding: 5px;
   font-size: 1.3rem;
+  animation: slide 4s ease-in-out;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 .footerBtn:hover {
@@ -89,7 +107,7 @@
   }
 
   .footer {
-    gap: 4rem;
+    grid-template-rows: 25% 25% 25%;
   }
 
   .footerBtn {
@@ -116,7 +134,9 @@
   }
 
   .footer {
-    gap: 2rem;
+    grid-template-columns: 45% 25.25% 25.25%;
+    grid-template-rows: none;
+    gap: 1.2rem;
   }
 
   .footerBtn {
@@ -142,7 +162,9 @@
   }
 
   .footer {
-    gap: 4rem;
+    grid-template-columns: 50% 25% 25%;
+    grid-template-rows: none;
+    gap: 1.4rem;
   }
 
   .footerBtn {
