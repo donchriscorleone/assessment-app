@@ -54,10 +54,10 @@
 
 @media screen and (min-width: 801px) and (max-width: 1150px) {
   .pictures {
-    gap: 0.5rem;
+    gap: 1rem;
   }
   .img {
-    width: 200px;
+    width: 210px;
   }
 }
 

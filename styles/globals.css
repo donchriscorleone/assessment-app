@@ -8,7 +8,7 @@
   box-sizing: border-box;
   font-family: "Nunito", sans-serif;
   background-color: #f0ece3;
-  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .toastContainer {
