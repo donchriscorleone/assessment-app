@@ -1,0 +1,59 @@
+.about {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 30% 30% 20% 20%;
+  justify-items: center;
+  align-items: center;
+  background-color: #7c9473;
+}
+
+.aboutTitle {
+  font-size: 2.3rem;
+  background-color: transparent;
+}
+
+.image {
+  width: 150px;
+  border-radius: 50px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+  animation: slide 3s ease-in-out;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.tag {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  background-color: #fdffbc;
+  padding: 7px;
+  border-radius: 10px;
+}
+
+.tag:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+  background-color: #c7b198;
+}
+
+/* tablet to medium size laptop */
+@media screen and (min-width: 750px) and (max-width: 1150px) {
+  .about {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50%;
+  }
+  .image {
+    width: 250px;
+  }
+}
+
+/* laptop */
+@media screen and (min-width: 1151px) {
+}
