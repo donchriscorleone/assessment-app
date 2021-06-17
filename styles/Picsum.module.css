@@ -1,0 +1,10 @@
+.pictures {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 30% 30% 20% 20%;
+  justify-items: center;
+  align-items: center;
+  background-color: #cfdac8;
+  scroll-snap-align: start;
+}

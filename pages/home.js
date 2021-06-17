@@ -1,6 +1,7 @@
 import styles from "../styles/Main.module.css";
 import { useRouter } from "next/router";
 import AboutMe from "../components/AboutMe";
+import Picsum from "../components/Picsum";
 
 const Home = () => {
   const router = useRouter();
@@ -26,6 +27,7 @@ const Home = () => {
           </div>
         </section>
         <AboutMe />
+        <Picsum />
         <section className={styles.footer}>
           <h1 className={styles.footerText}>
             Buttons can take you to other pages.
