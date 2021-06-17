@@ -77,4 +77,9 @@
   * {
     font-size: 23px;
   }
+  .toastContainer {
+    width: 550px;
+    margin-top: 15px;
+    gap: 40px;
+  }
 }
