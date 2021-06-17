@@ -6,11 +6,13 @@
   justify-items: center;
   align-items: center;
   background-color: #7c9473;
+  scroll-snap-align: start;
 }
 
 .aboutTitle {
-  font-size: 2.3rem;
+  font-size: 2.5rem;
   background-color: transparent;
+  border-bottom: 8px solid #fdffbc;
 }
 
 .image {
@@ -50,10 +52,13 @@
     grid-template-rows: 50%;
   }
   .image {
-    width: 250px;
+    width: 180px;
   }
 }
 
 /* laptop */
 @media screen and (min-width: 1151px) {
+  .image {
+    width: 200px;
+  }
 }
