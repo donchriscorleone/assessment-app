@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../styles/Picsum.module.css";
 
 const data = [
-  "https://picsum.photos/seed/2/120/150?grayscale",
+  "https://picsum.photos/seed/15/120/150?grayscale",
   "https://picsum.photos/seed/10/120/150?grayscale",
   "https://picsum.photos/seed/20/120/150?grayscale",
   "https://picsum.photos/seed/30/120/150?grayscale",
