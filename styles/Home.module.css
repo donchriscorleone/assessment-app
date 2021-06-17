@@ -3,6 +3,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: slide 2s ease-in-out;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 .form {
