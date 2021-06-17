@@ -37,17 +37,19 @@
   }
 }
 
+.footer {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 50% 100px 100px;
+  justify-items: center;
+  align-items: center;
+}
+
 .footerText {
   font-size: 1rem;
   margin-top: 10px;
   border-bottom: 7px solid #c7b198;
-  background-color: transparent;
-}
-
-.footer {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
   background-color: transparent;
 }
 
@@ -67,6 +69,11 @@
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
   border-color: #596e79;
   cursor: pointer;
+}
+
+.container,
+.footer {
+  scroll-snap-align: start;
 }
 
 /* tablet or medium screens */
